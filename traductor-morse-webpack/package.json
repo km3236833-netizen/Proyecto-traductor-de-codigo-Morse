@@ -1,0 +1,23 @@
+{
+  "name": "traductor-codigo-morse",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Traductor de texto y código Morse con JavaScript, Webpack y Babel",
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "gh-pages": "^6.2.0",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
